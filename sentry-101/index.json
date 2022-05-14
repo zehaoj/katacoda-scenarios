@@ -4,13 +4,6 @@
   "difficulty": "Beginner",
   "time": "20min",
   "details": {
-    "assets": { 
-      "host01": [ 
-        {
-          "file": "*", "target": "/root"
-        } 
-      ] 
-    },
     "steps": [
       {
         "title": "Step 1",
