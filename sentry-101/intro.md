@@ -1,0 +1,1 @@
+In this scenarios, you will learn the basic usage of Sentry.
