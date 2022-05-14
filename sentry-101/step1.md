@@ -5,7 +5,8 @@ Sentry captures data by using an SDK within your application’s runtime. First,
 
 `test.py`{{open}}
 
-```import sentry_sdk
+```
+import sentry_sdk
 
 sentry_sdk.init(
     "https://examplePublicKey@o0.ingest.sentry.io/0",
