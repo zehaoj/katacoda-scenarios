@@ -1,19 +1,15 @@
+## Register Sentry account
+In order to capture and store all the errors, we first need to register a Sentry account. 
 
-## Install
-Sentry captures data by using an SDK within your application’s runtime. First, we need to install the Python SDK using pip:
-`pip install --upgrade sentry-sdk`{{execute}}
+[Sentry](https://sentry.io)
 
-`test.py`{{open}}
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28gkr092fj212a0u0jwy.jpg)
 
-```
-import sentry_sdk
+After creating an account, we need to create project and here we will choose Python as our platform.
 
-sentry_sdk.init(
-    "https://examplePublicKey@o0.ingest.sentry.io/0",
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28gllqstbj20yf0u0q6g.jpg)
 
-    # Set traces_sample_rate to 1.0 to capture 100%
-    # of transactions for performance monitoring.
-    # We recommend adjusting this value in production.
-    traces_sample_rate=1.0,
-)
-```{{copy}}
+After choosing Python, the website would take you to a page like this:
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28gxczca9j219i0g6wgk.jpg)
+
+Remeber to copy the URL string since we need to use it in later steps.
