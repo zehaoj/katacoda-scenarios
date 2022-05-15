@@ -1,4 +1,3 @@
-## Setup Sentry Project
 
 - In order to capture and store all the errors, we first need to register a Sentry account. 
 
@@ -14,3 +13,5 @@
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28gxczca9j219i0g6wgk.jpg)
 
 - Copy the **DSN** key(the green URL string) and keep it handy as you will be copying the key into the source code. You can also find this information any time in **[Project] > Settings > Client Keys (DSN)**.
+
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h29b7qo73hj20y20t8djx.jpg)

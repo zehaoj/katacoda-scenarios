@@ -1,4 +1,3 @@
-# Python SDK Setup
 ## Install
 Sentry captures data by using an SDK within your application’s runtime. After setting up on the Sentry side, we need to install the Python SDK using pip:
 `pip install --upgrade sentry-sdk`{{execute}}
@@ -21,7 +20,7 @@ sentry_sdk.init(
     traces_sample_rate=1.0,
 )
 ```
-
+Keep in mind that this `init` part must remained exist during the whole scenario so that Sentry SDK knows where to send events. 
 
 ## Verify
 This snippet includes an intentional error, so you can test that everything is working as soon as you set it up. Copy this in the `test.py`{{open}} under the code from configuration:

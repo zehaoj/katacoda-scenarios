@@ -18,17 +18,21 @@
         "text": "step3.md"
       },
       {
-        "title": "Usage",
+        "title": "Usage 1",
         "text": "step4.md"
       },
       {
-        "title": "Enriching Events 1",
+        "title": "Usage 2",
         "text": "step5.md"
       },
       {
-        "title": "Enriching Events 2",
+        "title": "Enriching Events 1",
         "text": "step6.md"
-      }
+      },
+      {
+        "title": "Enriching Events 2",
+        "text": "step7.md"
+      },
     ],
     "intro": {
       "text": "intro.md"

@@ -1,4 +1,3 @@
-# Sentry Basics
 Sentry is a real-time error tracking system that gives you insight into production deployments and information to reproduce and fix crashes. 
 
 Sentry has some prominent features:
