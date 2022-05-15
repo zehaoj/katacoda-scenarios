@@ -1,40 +1,16 @@
+## Setup Sentry Project
 
-## Install
-Sentry captures data by using an SDK within your application’s runtime. After setting up on the Sentry side, we need to install the Python SDK using pip:
-`pip install --upgrade sentry-sdk`{{execute}}
+- In order to capture and store all the errors, we first need to register a Sentry account. 
 
+	[Sentry](https://sentry.io)
+	
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28gkr092fj212a0u0jwy.jpg)
 
-## Configure
-Configuration should happen as early as possible in your application's lifecycle.
+- After creating an account, we need to create project and here we will choose Python as our platform.
 
-Once this is done, Sentry's Python SDK captures all unhandled exceptions and transactions.
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28gllqstbj20yf0u0q6g.jpg)
 
-`test.py`{{open}}
+- After choosing Python, the website would take you to a page like this:
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28gxczca9j219i0g6wgk.jpg)
 
-
-Copy the following lines of code to `test.py` and replace the string with the url you got from last step.
-
-```
-import sentry_sdk
-
-sentry_sdk.init(
-    "**REPLACE_THIS_WITH_THE_URL_FROM_LAST_STEP**",
-
-    # Set traces_sample_rate to 1.0 to capture 100%
-    # of transactions for performance monitoring.
-    # We recommend adjusting this value in production.
-    traces_sample_rate=1.0,
-)
-```
-
-
-## Verify
-This snippet includes an intentional error, so you can test that everything is working as soon as you set it up. Copy this in the `test.py`
-
-`division_by_zero = 1 / 0`{{copy}}
-
-and run
-`python3 test.py`{{execute}}
-
-And if everything was done correctly, you should see this issue warning in the Sentry console under the project you created before.
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28hwfha8lj219g0aadhc.jpg)
+- Copy the **DSN** key(the green URL string) and keep it handy as you will be copying the key into the source code. You can also find this information any time in **[Project] > Settings > Client Keys (DSN)**.

@@ -6,27 +6,27 @@
   "details": {
     "steps": [
       {
-        "title": "Setup Sentry Project",
+        "title": "Sentry Basics",
         "text": "step1.md"
       },
       {
-        "title": "Python SDK setup",
+        "title": "Setup Sentry Project",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Python SDK Setup",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Usage",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Enriching Events 1",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Enriching Events 2",
         "text": "step6.md"
       }
     ],
