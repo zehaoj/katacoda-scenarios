@@ -32,7 +32,6 @@ with configure_scope() as scope:
 Tags are key/value string pairs that are both indexed and searchable. Define the tag:
 
 ```
-
 from sentry_sdk import set_tag
 
 set_tag("page.locale", "de-at")

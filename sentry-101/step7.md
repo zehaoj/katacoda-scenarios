@@ -22,7 +22,6 @@ The available breadcrumb keys are `type`, `category`, `message`, `level`, `times
 `before_breadcrumb` hook is passed an already assembled breadcrumb and, in some SDKs, an optional hint. The function can modify the breadcrumb or decide to discard it entirely by returning null:
 
 ```
-
 import sentry_sdk
 
 def before_breadcrumb(crumb, hint):
