@@ -23,6 +23,7 @@ You could see a `ValueError` raised in the sentry.io console.
 
 Another common operation is to capture a bare message. A message is textual information that should be sent to Sentry. Typically messages are not emitted, but they can be useful for some teams. 
 
+
 ```
 from sentry_sdk import capture_message
 
