@@ -25,7 +25,9 @@ Another common operation is to capture a bare message. A message is textual info
 
 
 ```
+
 from sentry_sdk import capture_message
 
 capture_message('Something went wrong')
+
 ```
