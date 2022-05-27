@@ -6,7 +6,7 @@ Sentry captures data by using an SDK within your application’s runtime. After 
 ## Configure
 Configuration should happen as early as possible in your application's lifecycle. Once this is done, Sentry's Python SDK captures all unhandled exceptions and transactions.
 
-Open `test.py`{{open}} and copy the following lines of code to it and replace the string with the url you got from last step.
+Open `test.py`{{open}} and copy the following lines of code to it and **replace the string with the url you got from the last step**.
 
 ```
 import sentry_sdk
@@ -20,7 +20,7 @@ sentry_sdk.init(
     traces_sample_rate=1.0,
 )
 ```
-Keep in mind that this `init` part must remained exist during the whole scenario so that Sentry SDK knows where to send events. 
+Keep in mind that **this `init` part must remained to exist during the whole scenario** so that Sentry SDK knows where to send events. 
 
 ## Verify
 This snippet includes an intentional error, so you can test that everything is working as soon as you set it up. Copy this in the `test.py`{{open}} under the code from configuration:

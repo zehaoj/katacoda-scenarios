@@ -6,7 +6,7 @@ Sentry has some prominent features:
 - It lets you know what’s breaking and how to reproduce the problem, without waiting for user reports. 
 - It lets you view actual code in stack traces and see the error’s url, parameters, and session information.
 
-A powerful tool like Sentry requires some time to learn and master. In this tutorial we will go through the basic usage of it and by the end of this scanario, you should know how to setup everything and explore the fundamental usage of Sentry.
+A powerful tool like Sentry requires some time to learn and master. In this tutorial, we will go through the basic usage of it and by the end of this scenario, you should know how to set up everything and explore the fundamental usage of Sentry.
 
 Before you start, here are some key terms that might help you during the process:
 
@@ -15,3 +15,12 @@ Before you start, here are some key terms that might help you during the process
 - **DSN** - Data Source Name. A DSN tells the Sentry SDK where to send events so the events are associated with the correct project. 
 
 If you want to know more about these, you can refer to their [doc](https://docs.sentry.io/product/sentry-basics/key-terms/)
+
+# Learning Outcomes
+After following the whole tutorial, you should know:
+
+* What does Sentry do.
+* How to set up Sentry project and Python sdk.
+* How to capture errors and messages.
+* How to monitor script performance.
+* How to enrich events such as adding context, set transaction names, etc.

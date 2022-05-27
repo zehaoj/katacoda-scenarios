@@ -21,7 +21,7 @@ You could see a `ValueError` raised in the sentry.io console.
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h29baz0c2kj218804gq3b.jpg)
 
-Another common operation is to capture a bare message. A message is textual information that should be sent to Sentry. Typically messages are not emitted, but they can be useful for some teams. 
+Another common operation is to capture a bare message. A message is a textual information that should be sent to Sentry. Typically, messages are not emitted, but they can be useful for some teams. 
 
 
 ```
