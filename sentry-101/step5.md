@@ -8,11 +8,10 @@ from sentry_sdk import start_transaction
 
 cc = 0
 while cc < 100:
-  item = cc
-
-  with start_transaction(op="task", name="test"):
-    item = item ^ item
-  	cc += 1   
+	item = cc
+	with start_transaction(op="task", name="test"):
+		item = item ^ item
+		cc += 1   
 ```
 and run `python3 test.py`{{excecute}}. 
 
