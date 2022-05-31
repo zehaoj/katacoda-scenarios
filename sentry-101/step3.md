@@ -31,6 +31,6 @@ and run
 
 `python3 test.py`{{execute}}
 
-And if everything was done correctly, you should see this issue warning in the Sentry console under the project you created before.
+And if everything was done correctly, you should see this issue warning in the [Sentry](https://sentry.io) console under the project you created before.
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h28i02ys7bj21aa0kawgm.jpg)

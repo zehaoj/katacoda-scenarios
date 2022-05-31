@@ -15,6 +15,6 @@ while cc < 100:
 ```
 and run `python3 test.py`{{excecute}}. 
 
-You could check the performance details like time breakdown, frequency, cumulative duration, etc in the console as well.
+You could check the performance details like time breakdown, frequency, cumulative duration, etc in the [Sentry](https://sentry.io) console as well.
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h29cpry7a7j20wv0u0tch.jpg)
